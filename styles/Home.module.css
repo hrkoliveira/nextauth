@@ -1,5 +1,23 @@
 .container {
-  padding: 0 2rem;
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input {
+  margin: 10px;
+  height: 30px;
+  width: 200px;
+}
+
+.button {
+  margin: 10px;
+  height: 35px;
+  width: 220px;
 }
 
 .main {
@@ -107,6 +125,8 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+
+
 
 @media (max-width: 600px) {
   .grid {
